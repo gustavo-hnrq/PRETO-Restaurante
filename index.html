@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P R E T O - Restaurante</title>
+    <link rel="shortcut icon" href="./images/PRETOLOGO.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  </head>
+  <body>
+
+    <!-- header inicio -->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="logo">
+            <a href="#"><img src="./images/PRETOLOGO.svg" alt="logo"></a>
+          </div>
+          <button type="button" class="nav-toggler">
+            <span class="ham"></span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li class="nav-item"><a href="#home">Início</a></li>
+              <li class="nav-item"><a href="#about">Sobre</a></li>
+              <li class="nav-item"><a href="#our-menu">Menu</a></li>
+              <li class="nav-item"><a href="#eventos-preto">Eventos</a></li>
+              <li class="nav-item"><a href="#reserva">Reserva</a></li>
+              <li class="nav-item"><a href="#footer">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- header fim -->
+
+    <!-- pagina inicial - inicio -->
+    <section class="home-section" id="home">
+      <div class="home-bg"></div>
+      <div class="container">
+        <div class="row min-vh-100 align-items-center">
+          <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+            <p>Seja bem-vindo ao</p>
+            <h1>PRETO</h1>
+            <p>RESTAURANTE</p>
+            <a href="#our-menu" class="btn btn-default">Ver menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pagina inicial - fim -->
+
+    <!-- seção sobre - inicio -->
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Sobre nós</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+            <h3>Um lugar aberto para o novo sem se esquecer do passado</h3>
+            <p>
+              No coração deste restaurante encantador, mergulhe em uma jornada culinária 
+              única que celebra a rica herança gastronômica da Bahia.
+              O Preto é um refúgio de sabores, onde a essência vibrante da 
+              cultura baiana se funde com influências do Brasil, Portugal e África.
+            </p>
+            <p>
+              Junte-se a nós nessa jornada culinária especial, onde as raízes se encontram e as histórias são contadas através dos sabores, tudo em um ambiente acolhedor e cativante. 
+            </p>
+            <a href="#our-menu" class="btn btn-default">Ver menu</a>
+          </div>
+          <div class="about-img" data-aos="fade-left" data-aos-duration="1000">
+            <div class="image-box">
+              <img src="./images/about-img.jpg" alt="#">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seção sobre - fim-->
+
+    <!-- seção menu - inicio -->
+    <section class="menu-section sec-padding pratos" id="our-menu">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Nosso Menu</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="menu-tabs" data-aos="fade-up" data-aos-duration="1000">
+            <button type="button" class="menu-tab-item active" data-target="#launch">Pratos Principais</button>
+            <button type="button" class="menu-tab-item" data-target="#dinner">Bebidas</button>
+          </div>
+        </div>
+        <div class="row menu-tab-content active" id="launch">
+
+          <div class="menu-item" data-aos="fade-up-right" data-aos-duration="1000">
+            <div class="menu-item-title op1">
+              <img src="./images/menu/1.jpg" alt="menu">
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+
+          <div class="menu-item" data-aos="fade-up-left" data-aos-duration="1000">
+            <div class="menu-item-title">
+              <img src="./images/menu/2.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/3.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/4.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/5.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/6.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/7.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/8.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+        </div>
+        <div class="row menu-tab-content" id="dinner">
+          <div
+            class="menu-item"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/1.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$30.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/2.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$30.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/3.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$30.00</div>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
+            <div class="menu-item-title">
+              <img src="./images/menu/4.jpg" alt="menu" />
+              <h3>Mexilhão no Leite de Coco</h3>
+            </div>
+            <div class="menu-item-price">$30.00</div>
+          </div>
+        </div>
+    </section>      
+    <!-- seção menu - fim -->
+
+    <!-- eventos - incio -->
+    <section class="team-section sec-padding" id="eventos-preto">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-aos="fade-up" data-aos-duration="1000">
+              Eventos
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/eventos/evento02.jpg" class="chef" alt="team" />
+            <div class="team-item-info">
+              <h3>Mês da Cachaça</h3>
+              <p>Um mês cheio de sabores e saberes. Vem pro Preto.</p>
+            </div>
+          </div>
+          <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/eventos/evento01.jpg" class="chef" alt="team" />
+            <div class="team-item-info">
+              <h3>Carnaval no Preto</h3>
+              <p>Carnaval no Preto, com feijuca à vontade e DJ</p>
+            </div>
+          </div>
+          <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/eventos/Evento03.jpg" class="chef" alt="team" />
+            <div class="team-item-info">
+              <h3>Dia dos Namorados</h3>
+              <p>Novidades românticas no cardápio do Dia dos Namorados!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- eventos - fim -->
+
+        <!-- reserva - inicio -->
+    <section class="section-reserva" id="reserva">
+        <form action="#" class="form">
+          <h2>Reserva</h2>
+            <div class="input-box">
+              <label>Nome:</label>
+              <input type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="input-box">
+              <label>Email:</label>
+              <input type="text" placeholder="Digite seu email">
+            </div>
+            <div class="input-box">
+              <label>Pessoas:</label>
+              <input type="number" placeholder="Quantidade de pessoas">
+            </div>
+            <div class="input-box">
+              <label for="date">Data e hora:</label>
+              <input type="text" id="date" name="date" placeholder="Escolha a data e hora da reserva">
+            </div>
+            <div class="btn-reservar">
+              <a href="#home" class="btn btn-default">Fazer Reserva</a>
+            </div>
+        </form>
+    </section>
+        <!-- reserva - fim -->
+
+    <!-- footer - inicio -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+            <h3>Endereço</h3>
+            <p>
+              R. Fradique Coutinho, 276 - Pinheiros, São Paulo - SP, 05416-000
+            </p>
+          </div>
+          <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+            <h3>Horário de abertura</h3>
+            <p>
+              <p>Segunda a Quinta | 12h às </p>
+              <p>Sexta e Sábado | 12h à 1h</p>
+              <p>Domingo | 12h às 18h </p>
+            </p>
+          </div>
+          <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+            <h3>Contato</h3>
+            <p>(11) 99114-3539</p>
+            <p>info.pretocozinha@gmail.com</p>
+            <div class="social-links">
+              <a href="#"><img src="./images/iconmonstr-instagram-11-240.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">Copyright &copy; 2023 - Site feito por Gustavo Henrique</div>
+          <!-- Todos os direitos reservados a Gustavo Henrique Freire Dias -->
+        </div>
+      </div>
+    </footer>
+    <!-- footer - fim -->
+
+    <!-- arquivos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
