@@ -367,7 +367,7 @@ section {
 }
 .home-text p {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin: 0 0 30px;
   letter-spacing: 10px;
@@ -768,7 +768,7 @@ section {
 }
 @media (max-width: 767px) {
   .home-text h1 {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 65px;
   }
   .menu-item,
